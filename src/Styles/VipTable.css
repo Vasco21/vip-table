@@ -19,6 +19,17 @@
     width: 90%; 
   }
 }
+.vip-table {
+  border-collapse: collapse;
+  width: 70%;
+
+  /* Responsive styles */
+  @media (max-width: 500px) {
+    width: 90%; 
+  }
+}
+
+
 
 .vip-table th,
 .vip-table td {
