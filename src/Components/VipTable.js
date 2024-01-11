@@ -4,7 +4,7 @@ import logo from "../images/logo.png"
 
 const VipTable = () => {
   const data = [
-    { level: 'Experience Level', depositAmt: '--', dailyIncome: ' 6 - 8', monthlyIncome: '7Days Trail' },
+    { level: 'Experience Level', depositAmt: '--', dailyIncome: ' 6 - 8', monthlyIncome: '7Day Trail' },
     { level: 'VIP 1', depositAmt: 'R300', dailyIncome: '6 - 8', monthlyIncome: '400 - 550' },
     { level: 'VIP 2', depositAmt: 'R800', dailyIncome: '22 - 28', monthlyIncome: '1400 - 1600' },
     { level: 'VIP 3', depositAmt: 'R2000', dailyIncome: '63 - 70', monthlyIncome: '4200 - 4500' },
