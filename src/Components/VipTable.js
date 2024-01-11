@@ -4,7 +4,7 @@ import logo from "../images/logo.png"
 
 const VipTable = () => {
   const data = [
-    { level: 'VIP 0', depositAmt: 'R300', dailyIncome: ' 6 - 8', monthlyIncome: '490 - 550' },
+    { level: 'Experience Level', depositAmt: 'R300', dailyIncome: ' 6 - 8', monthlyIncome: '490 - 550' },
     { level: 'VIP 1', depositAmt: 'R800', dailyIncome: '22 - 28', monthlyIncome: '1400 - 1600' },
     { level: 'VIP 2', depositAmt: 'R2000', dailyIncome: '63 - 70', monthlyIncome: '4200 - 4500' },
     { level: 'VIP 3', depositAmt: 'R5000', dailyIncome: '150 - 190', monthlyIncome: '12000 - 19000' },
@@ -16,7 +16,9 @@ const VipTable = () => {
 
   return (
     <div className="vip-table-container">
+      <div className='logo-container'>
       <img src={logo} alt="Logo" className="logo" />
+      </div>
       <table className="vip-table">
         <thead>
           <tr>
